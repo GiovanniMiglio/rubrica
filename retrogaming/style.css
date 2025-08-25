@@ -1,0 +1,279 @@
+*{
+    font-family: "Montserrat", sans-serif
+}
+/* header */
+.headerbgc{
+    background-image: url(img/bg-1.jpg);
+    height:80vh;
+}
+
+.row{
+    position:relative;
+    
+}
+.cardc{ position: absolute;
+    top: 241px;
+    left: 74px;
+    border: none;
+}  
+.pccus{
+    font-size: 12px;
+}
+.pccus2{
+    font-size: 12px;
+}
+.cardimgc{
+    height: 32px;
+    width: 86px;
+}
+.texty{
+    position: relative;
+    top: 15px;
+    font-size: 35px;
+    color: yellow;
+    
+}
+.datac{
+    margin-bottom: 0px;
+}
+.orac{
+    font-size: 10px;
+    margin-left: 35px;
+}
+.btnc{
+    outline: 2px solid yellow;
+    outline-color: yellow;
+    color: yellow;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+.btnc:hover{
+    outline-color: yellow;
+    background-color: yellow;
+    color: black;
+}
+.imgarcadec{
+    height:476px ;
+    position: absolute;
+    top: 184px;
+    right:129px;
+}
+@media screen and (max-width:768px){
+    .headerbgc{
+        width: 100vh;
+        height: 100vh;
+    }
+    .imgarcadec{
+        right: 7px;
+    } 
+    .cardc{
+        left: 12px;
+    } 
+    
+}
+@media screen and (max-width:1500px) and (min-width: 768px){
+    .headerbgc{
+        height: 67vh;
+    }   
+}
+/*main*/
+.main1bc{
+    background-color: #1b1540 ;
+}
+.imggamingc{
+    height: 410px;
+    width: 303px;
+}
+.containermc2{
+    background-image: url(img/bg-2.jpg);
+    background-size: 100%;
+    height: 80vh;
+    background-repeat:no-repeat;
+    
+}
+.row-m-c2{position: relative;}
+.cardmc2{
+    background-color: #1b1540;
+    position: absolute;
+    top: 538px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+.cerchio {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color:#EBDC0E;
+    border-radius: 50%;
+    top: 21%;
+    left: 2%;
+}
+.icocal{
+    position: relative;
+    top: 22px;
+    left: 7px;
+}
+.inputc{
+    border-bottom: 2px solid #B726BE; 
+    border-top: none; 
+    border-left: none; 
+    border-right: none;
+    color: white;
+    
+}
+label{
+    color: white;
+}
+.btnlc{
+    border-radius: 20px;
+    background-color: #EBDC0E;
+    position: relative;
+    bottom: 15px;
+    width: 100%;
+}
+
+@media screen and (max-width:768px){
+    .main1bc{
+        width: 100vh;
+        height: 100vh;
+    }
+    .row-m-c{
+        position: relative;
+    }
+    .imggamingc{ position:absolute;
+        width: 50%;
+        height: auto;
+        top: 70%;
+        left: 13%;
+        
+    }
+    .containermc2{
+        width: 100vh;
+        height: 100vh;
+        
+    }
+    .cardmc2{
+        top: 320px;
+        left: 47%;
+        z-index: 3;
+    }
+}
+@media screen and (max-width:1500px) and (min-width: 768px){
+    .imgarcadec{ position:absolute;
+        width: 50%;
+        object-fit: contain;
+        height: auto;
+        left:60%;
+    }
+    .cardc{
+        width: 100%;
+        object-fit: contain;
+        height: auto;
+        left:0%;
+        
+    }
+    .containermc2{
+        width: 100%;
+        height: 100vh;
+        z-index: 3;
+    }
+    .cardmc2{position: absolute;
+        top:26vh;
+        left: 47%;
+        z-index: 3;
+    }
+}
+/*footer*/
+.containermc3{
+    background-color: #140925;
+}
+.textyel{
+    color: #EBDC0E;
+}
+
+.colc{
+    position:relative;
+    right: -13vh;
+}
+.colc2{
+    position:relative;
+    left: 0vh;
+}
+@media screen and (max-width:1500px) and (min-width: 768px){
+    .containermc3{
+        width: 100%;
+        height: 50vh;
+        position: relative;
+        top: -59vh;
+        z-index: 1;
+    }
+    .imgaulab{
+        width:auto;
+        height: auto;
+        position: relative;
+        top: 14vh;
+        right: 139%;
+    }
+    .colc2{
+        width: 80vh;
+        left: 4vh;
+        top: -14vh;
+        
+    }
+}
+
+@media screen and (max-width:768px){
+    .containermc3{
+        width: 100vh;
+        height: 100vh;
+        position: relative;
+        top: -44vh;
+        
+    }
+    .imgaulab{
+        width: 40vh;
+        height: auto;
+        position: relative;
+        top: 10vh;
+    }
+    .colc2{
+        width: 80vh;
+        left: -7vh;
+        top: -7vh;
+        
+    }
+    .colc{
+        width: 78%;
+    }
+    .colc2{
+        width: 78%;
+    }
+}
+/*footer2*/
+.containermc4{
+    background-image: url(img/bg-3.jpg);
+    height: 90vh;
+}
+.colc4{
+    position: relative;
+    right: -20%;
+}
+@media screen and (max-width:768px){
+    .containermc4{
+        position: relative;
+        top: -372px;
+        width: 100vh;
+        height: 122vh;
+    }
+}
+@media screen and (max-width:1500px) and (min-width: 768px){
+    .colc3{
+        position: relative;
+        left: -120px;
+    }
+    .containermc4{
+        position: relative;
+        bottom: 734px;
+    }
+}
