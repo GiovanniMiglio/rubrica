@@ -1,0 +1,256 @@
+body{
+    font-family: "Roboto Condensed", sans-serif;
+    color: white;
+    
+    
+}
+.conteiner{
+    width: 1080px;
+    margin: 0 auto;
+}
+div {
+    display: block;
+}
+.group
+{display: grid;
+    width: 100px;
+    grid-column: repeat;
+    grid-template-columns: auto auto auto;
+    margin: 10px; 
+    
+}
+.articoli{
+    margin: 20px
+    
+    
+}
+.mainp{
+    background-image:url(https://aulab.it/build/assets/grid04-DH9I6gw7.webp);
+    width: 110%;
+}
+.black{
+    background-color: #0b0c14;
+}
+img{
+    height: 200px;
+    width: 350px;
+    border-radius: 10%;
+}
+h1,h3,.littletitle{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.littletitle,h5{
+    color: yellow;
+}
+.aulab{
+    height: auto;
+    width: auto;
+    vertical-align:middle;
+    object-fit: none;
+    padding-right: 100px;
+    
+}  
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+} 
+
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    padding: 0px;
+    
+}
+ul a{
+    text-decoration: none;
+    color: white
+}
+.bannerl{
+    color:gray;
+    display: inline;
+}
+li{
+    padding: 6px 12px;
+    
+}
+.littletitle{
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+h1{
+    font-size: 48px;
+    margin-top: 10px;
+}
+section{
+    position: relative;
+    spacing:0.25em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color:#FEE907;
+    border-radius: 24px;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    padding-top: 5px;
+    text-align: center;
+    margin-top: 30px;
+    width: 1100px;
+    height: 250px;
+    
+} 
+.titolobanner{
+    font-size: 36px;
+}
+a{
+    color: #FEE907;
+}
+.testob{
+    
+    text-align: left;
+    
+}
+.imgbanner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%
+}
+.imgbanner .sfondop{
+    z-index: 1;
+}
+.imgbanner .aulabdocent{
+    z-index: 2;
+}
+.sfondop{
+    position: absolute;
+    bottom: 0px;
+    right: 40px;
+    height: 130%;
+    
+}
+.aulabdocent{
+    position: absolute;
+    bottom: 0px;
+    right: 40px;
+    width: auto;
+    height: 300px;
+    
+    
+} 
+.whatsapp{
+    display: inline;
+    align-items: center;
+    justify-content: flex-start;  
+    text-align: left;
+    color: grey;
+    font-size: smaller;
+}
+.wh{
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+}
+.ricerca{
+    color: yellow;
+}
+.bricerca{
+    border: 1px;;
+    border-radius: 3.40282e38px;
+    background-color: rgb(186, 184, 184);
+    
+}
+.lente{
+    height: 30px;
+    width: 30px;
+}
+.test{
+    cursor:pointer;
+    padding: 5px 30px;
+    background-color: black;
+    color: white;
+    border-radius: 3.40282e38px;
+    
+}
+.toup{
+    appearance: none !important;
+    line-height: 33.99px !important;
+    height: 33.99px !important;
+    min-width: 33.99px !important;
+    padding: 0;
+    border: 0;
+    cursor: pointer !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .15) !important;
+    color: rgba(0, 0, 0, .65) !important;
+    background-color: #fff !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    z-index: 2147483647 !important;
+    display: inline-block !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    margin: 16px !important;
+    position: fixed !important;
+    background-image: url(https://aulab-hackademy.s3.eu-south-1.amazonaws.com/attachments/qWVDMqzBgLMA5fYE841IBmjHqUVL0AdJ6xzBR76L.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position:no-repeat !important;
+    
+}
+
+@media (max-width: 768px) {
+    .conteiner{
+        
+        max-width:100%;
+        width: 100%; 
+        padding: 10px;
+        margin: 0%;
+        
+    }
+    main{
+        width: 90%;
+        min-width: 90%;
+    }
+    .group{
+        
+        grid-column: 1;
+        grid-template-columns: auto ;
+    }
+    ul{
+        display: grid;
+        
+        grid-template-columns: auto auto ;
+        width:10%;
+        max-width: 10%;
+    }
+    li{
+        font-size: 10px;
+    }
+    .workwu{
+        font-size:8px;
+    }
+    nav{
+        max-width: 50%;
+        width: 50%;
+    }
+    
+    section{
+        max-width: 80vw;
+        margin: 20px;
+        height: 300px;
+    }
+    .aulabdocent{
+        display: none;
+    }
+    ul{
+        font-size: 12px;
+        max-width: 25vw;
+    }
+}
